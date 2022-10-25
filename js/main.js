@@ -1,8 +1,8 @@
 const shopContent = document.getElementById("shopContent")
 const verCarrito = document.getElementById("verCarrito")
-const modalContainer = doment.getElementById("modal-container")
+const modalContainer = document.getElementById("modal-container")
 const productos = [  
-    {id: 1, nombre: "Sorrentinos", precio: 550, variedad: "4 quesos, calabaza, ricota", img:""},
+    {id: 1, nombre: "Sorrentinos", precio: 550, variedad: "4 quesos, calabaza, ricota", img: ""},
     {id: 2, nombre: "Tartas", precio: 600, variedad: "verduras, jamon y queso, atun", img:""},
     {id: 3, nombre: "Fideos", precio: 350, variedad: "puro huevo, verduras", img:""},
     {id: 4, nombre: "Canelones", precio: 450, variedad: "choclo, jamón y queso", img:""}
