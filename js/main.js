@@ -31,6 +31,7 @@ productos.forEach((product) => {
            nombre : product.nombre,
            precio : product.precio,
         })
+        saveLocal()
     })
 
 
@@ -76,4 +77,7 @@ verCarrito.addEventListener("click", ()=> {
     totalCompra.innerHTML = `total a pagar: ${total} $`
     modalContainer.append(totalCompra)
 })
+const saveLocal = () => {
+localStorage.setItem("carrito", JSON.stringify(carrito))
+}
 
