@@ -260,3 +260,32 @@ display: none;
 .sumar {
   cursor: pointer
 }
+
+
+/* SWEETALERT */
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+.modal-footer {
+  display: flex;
+
+  justify-content: space-around;
+
+  justify-content: space-around;
+  background-color: #0a0909;
+
+  color: #fff;
+
+  width: 100%;
+}
+.modal-footer-button {
+  font-size: 25px;
+
+  padding: 20px;
+  text-align: left;
+
+  padding-top: 20px;
+  cursor: pointer;
+
+}

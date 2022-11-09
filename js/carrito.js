@@ -49,6 +49,25 @@ const pintarCarrito = () => {
     totalCompra.innerHTML = `total a pagar: ${total} $`
     modalContainer.append(totalCompra)
 
+    /* SWEETALERT */
+const modalFooter = document.createElement("div")
+modalHeader.className ="modal-footer"
+modalContainer.append(modalFooter)
+
+const finalizar = document.createElement ("h1")
+finalizar.innerText ="Finalizar compra"
+finalizar.className = "modal-footer-button"
+
+finalizar.addEventListener("click", () => {
+    Swal.fire({
+        position: 'top-end',
+        icon: 'success',
+        title: 'Su compra ha sido realizada!',
+        showConfirmButton: false,
+        timer: 1500
+    })
+})
+modalFooter.append(finalizar)
 }
 verCarrito.addEventListener("click", pintarCarrito)
 
